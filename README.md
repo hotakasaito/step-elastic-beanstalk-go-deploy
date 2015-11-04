@@ -1,7 +1,6 @@
 #Amazon EB deployment for Wercker.com
 
-
-[![wercker status](https://app.wercker.com/status/ff5cec33194ea3c318288128f970c134/m "wercker status")](https://app.wercker.com/project/bykey/ff5cec33194ea3c318288128f970c134)
+[![wercker status](https://app.wercker.com/status/a38256715b642c6833bbfff53e398272/m "wercker status")](https://app.wercker.com/project/bykey/a38256715b642c6833bbfff53e398272)
 
 > Please note: This requires you to have an already existing Elastic Beanstalk application and environment in place, it will not run a startup procedure.
 
