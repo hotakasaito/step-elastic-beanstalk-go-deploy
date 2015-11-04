@@ -78,10 +78,10 @@ global:
   application_name: $WERCKER_ELASTIC_BEANSTALK_GO_DEPLOY_APP_NAME
   default_platform: 64bit Amazon Linux 2015.03 v2.0.3 running Go 1.4
   default_region: ap-northeast-1
-  profile: eb-cli
+  profile: null
   sc: git
 deploy:
-  artifact: /tmp/${$WERCKER_ELASTIC_BEANSTALK_GO_DEPLOY_APP_NAME}.zip
+  artifact: /tmp/${WERCKER_ELASTIC_BEANSTALK_GO_DEPLOY_APP_NAME}.zip
 EOF
 
 if [ -n "$WERCKER_ELASTIC_BEANSTALK_GO_DEPLOY_DEBUG" ]
