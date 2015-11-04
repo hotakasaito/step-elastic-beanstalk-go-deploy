@@ -1,0 +1,28 @@
+name: elastic-beanstalk-go-deploy
+version: 0.0.1
+description: Allows you to deploy your application to an already existing amazon Elastic Beanstalk
+keywords:
+  - amazon
+  - elastic
+  - beanstalk
+  - aws
+  - aws eb
+  - amazon eb
+  - eb
+  - go
+properties:
+  key:
+    type: string
+    required: true
+  secret:
+    type: string
+    required: true
+  app_name:
+    type: string
+    required: true
+  env_name:
+    type: string
+    required: true
+  region:
+    type: string
+    required: true
