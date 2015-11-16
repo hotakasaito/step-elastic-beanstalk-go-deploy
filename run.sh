@@ -50,7 +50,7 @@ echo 'Installing pip...'
 sudo apt-get install -y --force-yes python-pip libpython-all-dev
 
 echo 'Installing awscli...'
-sudo pip install awsebcli
+sudo pip install awsebcli --ignore-installed texttable
 
 echo 'eb version show...'
 eb --version
