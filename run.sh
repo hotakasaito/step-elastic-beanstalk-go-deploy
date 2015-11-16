@@ -47,7 +47,7 @@ echo 'Synchronizing References in apt-get...'
 sudo apt-get update
 
 echo 'Installing pip...'
-sudo apt-get install -y --force-yes python-pip libpython-all-dev
+sudo apt-get install -y python-pip libpython-all-dev
 
 echo 'Installing awscli...'
 sudo pip install awsebcli --ignore-installed texttable
