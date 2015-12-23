@@ -101,6 +101,8 @@ debug "Pushing to AWS eb servers."
 if [ -n "$WERCKER_ELASTIC_BEANSTALK_DEPLOY_NOHUP" ]
 then
     nohup /usr/local/bin/eb deploy --staged &
+    echo $?
+    which nohup
 else
     /usr/local/bin/eb deploy --staged || true
 fi
