@@ -102,7 +102,7 @@ if [ -n "$WERCKER_ELASTIC_BEANSTALK_DEPLOY_NOHUP" ]
 then
     nohup /usr/local/bin/eb deploy --staged &
 else
-    /usr/local/bin/eb deploy --staged
+    /usr/local/bin/eb deploy --staged || true
 fi
 
 success 'Successfully pushed to Amazon Elastic Beanstalk'
