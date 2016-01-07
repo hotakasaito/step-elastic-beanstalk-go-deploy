@@ -78,7 +78,7 @@ branch-defaults:
 global:
   application_name: $WERCKER_ELASTIC_BEANSTALK_GO_DEPLOY_APP_NAME
   default_platform: 64bit Amazon Linux 2015.03 v2.0.3 running Go 1.4
-  default_region: ap-northeast-1
+  default_region: $WERCKER_ELASTIC_BEANSTALK_GO_DEPLOY_REGION
   profile: null
   sc: git
 deploy:
